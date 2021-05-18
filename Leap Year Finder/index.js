@@ -1,6 +1,6 @@
 function hello() {
   var year = document.getElementById("leapInput").value;
-  //changed value of leapYear from "document.forms.years.value" to   document.getElementById("leapInput").value
+  //get the value from input - document.getElementById("leapInput").value
   if (year % 4 === 0) {
     if (year % 100 === 0){
        if (year % 400 == 0){
