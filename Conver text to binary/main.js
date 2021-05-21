@@ -4,5 +4,7 @@ function convert() {
   output.value = "";
   for (var i = 0; i < textarea.length; i++) {
     document.getElementById("crypted").innerHTML = output.value += textarea[i].charCodeAt(0).toString(2) + ",";
+    console.log("Valeur de l'input = " + textarea);
+    console.log(textarea[i].charCodeAt(0).toString(2) + ",")
   }
 }
