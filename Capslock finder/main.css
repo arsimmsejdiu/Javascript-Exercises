@@ -1,4 +1,15 @@
 #warning {
   display: none;
+  color: red;
+}
+#message {
+  display: none;
   color: orange;
+}
+
+.caps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
