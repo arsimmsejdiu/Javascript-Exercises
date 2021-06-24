@@ -3,15 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
     <title>Copy to clipboard</title>
   </head>
   <body>
-    <div id="container">
+    <div class="container" id="container">
+        <h1>Copy To Clipboard</h1>
+        <br />
       <textarea name="name" rows="8" cols="80" id="copy-text">
 Enter your texte here.</textarea
       >
       <br />
-      <button id="button-copy">Copy text</button> <br />
+      <br />
+      <button id="button-copy">Copy text</button> <br /><br />
       <textarea
         name="name"
         rows="8"
@@ -19,6 +23,7 @@ Enter your texte here.</textarea
         id="paste-text"
         placeholder="Paste your text here..."
       ></textarea>
+      <div id="snackbar">Copied To Clipboard..</div>
     </div>
     <script type="text/javascript" src="main.js"></script>
   </body>
