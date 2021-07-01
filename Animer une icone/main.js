@@ -11,7 +11,7 @@ function balanceScale() {
   }, 1000);
   setTimeout(function () {
     balance.innerHTML = "&#xf516;";
-  }, 1000);
+  }, 2000);
 }
 
 function glassB() {
